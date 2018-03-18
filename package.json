@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-onetimepad",
+  "version": "1.0.0",
+  "description": "One Time Pad Encryption/Decryption in NodeJS",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
+    "clean": "rimraf dest",
+    "lint": "tslint -c tslint.json src/**/*.{ts,spec.ts}"
+  },
+  "author": "Frank Hassanabad",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "ts-node": "^5.0.0",
+    "typescript": "^2.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/inquirer": "0.0.36",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^9.4.6",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.9.1"
+  }
+}
