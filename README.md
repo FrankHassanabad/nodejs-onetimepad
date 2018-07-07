@@ -3,7 +3,7 @@
 Example one time pad with ascii letters from a-z, all lower case. No spaces or capital letters to
 keep the example very small and simple.
 
-# install
+# install 
 ```js
 $ npm install
 ```
