@@ -7,6 +7,7 @@
     "start": "ts-node src/index.ts",
     "build": "tsc -p .",
     "clean": "rimraf dest",
+    "test": "npm run build && npm run lint",
     "lint": "tslint -c tslint.json src/**/*.{ts,spec.ts}"
   },
   "author": "Frank Hassanabad",
